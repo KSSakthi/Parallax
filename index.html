@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Parallax</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        overflow-x: hidden;
+      }
+
+      .sub {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2rem;
+        background-color: #eb675e;
+      }
+
+      .pic {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .pic-1 {
+        background-image: url("https://pixabay.com/illustrations/loveourplanet-earth-peaceful-4851331/");
+        height: 100vh;
+      }
+
+      .pic-2 {
+        background-image: url("https://cdn.pixabay.com/photo/2016/02/16/10/46/panda-1203101_640.jpg");
+        height: 100vh;
+      }
+      .pic-3 {
+        background-image: url("https://cdn.pixabay.com/photo/2022/11/30/20/47/red-panda-7627767_640.jpg");
+        height: 100vh;
+      }
+      .pic-4 {
+        background-image: url("https://cdn.pixabay.com/photo/2018/09/17/10/52/red-panda-3683471_640.jpg");
+        height: 100vh;
+      }
+      .pic-5 {
+        background-image: url("https://cdn.pixabay.com/photo/2023/04/03/18/20/ai-generated-7897514_640.jpg");
+        height: 100vh;
+      }
+      .pic-6 {
+        background-image: url("https://cdn.pixabay.com/photo/2023/04/03/18/32/ai-generated-7897623_640.jpg");
+        height: 100vh;
+      }
+
+      .content {
+        text-align: center;
+        padding: 50px;
+      }
+
+      .content h2 {
+        margin-bottom: 20px;
+      }
+
+      .social-buttons {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+      }
+
+      .social-button {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: #e74c3c;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 40px;
+        transition: background-color 0.3s;
+      }
+
+      .social-button i {
+        font-size: 18px;
+        color: #fff;
+      }
+
+      .social-button:hover {
+        background-color: #87eaa5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="social-buttons">
+      <a class="social-button" href="#">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="social-button" href="https://twitter.com/MAnandh94408412">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="social-button" href="#">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+
+    <div class="sub pic pic-1">
+      <div class="content">
+        <h2>🐼</h2>
+        <p>
+          Pandas are known for their distinctive black and white fur patterns.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub pic pic-2">
+      <div class="content">
+        <h2></h2>
+        <p>
+          Pandas primarily eat bamboo, which makes up around 99% of their diet.
+        </p>
+      </div>
+    </div>
+    <div class="sub">
+      <div class="content">
+        <h2>🐼🐼</h2>
+        <p>
+          Pandas have a thumb-like extension on their paws that helps them grasp
+          bamboo stalks.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub pic pic-3">
+      <div class="content">
+        <h2></h2>
+        <p>Pandas are solitary creatures and often prefer to be alone.</p>
+      </div>
+    </div>
+    <div class="sub">
+      <div class="content">
+        <h2>🐼🐼🐼</h2>
+        <p>
+          Pandas are native to China and are considered a national treasure.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub pic pic-4">
+      <div class="content">
+        <h2></h2>
+        <p>
+          Pandas have a special diet, but their digestive system is more similar
+          to that of a carnivore.
+        </p>
+      </div>
+    </div>
+    <div class="sub">
+      <div class="content">
+        <h2>🐼🐼🐼🐼</h2>
+        <p>
+          Despite their appearance, pandas belong to the bear family and are
+          skilled climbers.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub pic pic-5">
+      <div class="content">
+        <h2></h2>
+        <p>
+          Pandas communicate with each other through vocalizations and scent
+          marking.
+        </p>
+      </div>
+    </div>
+    <div class="sub">
+      <div class="content">
+        <h2>🐼🐼🐼🐼🐼</h2>
+        <p>
+          Pandas have a low reproductive rate and are at risk due to habitat
+          loss.
+        </p>
+      </div>
+    </div>
+    <div class="sub pic pic-6">
+      <div class="content">
+        <h2></h2>
+        <p>
+          Pandas are often used as symbols of conservation efforts and
+          environmental awareness.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
